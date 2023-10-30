@@ -26,5 +26,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Kong/public-shared-actions/security-actions/semgrep@v1
         with:
-          additional_config: '--config p/rust'
+          additional_config: '--config p/rust --debug'
 
